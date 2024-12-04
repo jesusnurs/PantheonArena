@@ -117,7 +117,7 @@ namespace Player
             }
         }
 
-        private (bool success, Vector3 position) GetMousePosition()
+        public (bool success, Vector3 position) GetMousePosition()
         {
             var ray = mainCamera.ScreenPointToRay(Input.mousePosition);
 

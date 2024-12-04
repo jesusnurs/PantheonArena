@@ -13,6 +13,7 @@ namespace Data
         [SerializeField] private float ultimateDamage;
         
         [Header("Cooldown")]
+        [SerializeField] private float basicCooldown;
         [SerializeField] private float skillOneCooldown;
         [SerializeField] private float skillTwoCooldown;
         [SerializeField] private float skillThreeCooldown;
@@ -24,6 +25,7 @@ namespace Data
         public float SkillThreeDamage => skillThreeDamage;
         public float UltimateDamage => ultimateDamage;
 
+        public float BasicCooldown => basicCooldown;
         public float SkillOneCooldown => skillOneCooldown;
         public float SkillTwoCooldown => skillTwoCooldown;
         public float SkillThreeCooldown => skillThreeCooldown;
