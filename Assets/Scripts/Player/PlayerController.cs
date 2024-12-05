@@ -49,23 +49,6 @@ namespace Player
             // Convert input to isometric direction
             Vector3 input = new Vector3(horizontal, 0f, vertical).normalized;
             moveDirection = ConvertToIsometric(input);
-
-            // Handle jump
-            if (Input.GetButtonDown("Jump") && isGrounded)
-            {
-                Jump();
-            }
-        }
-
-        private void Jump()
-        {
-            rb.AddForce(Vector3.up * movementData.JumpForce, ForceMode.Impulse);
-
-            // Optional: Trigger jump animation
-            if (animator != null)
-            {
-                animator.SetTrigger("Jump");
-            }
         }
 
         private void ApplyMovement()
