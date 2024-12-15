@@ -239,6 +239,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence Post and Slat (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
       value: 122.01117
@@ -390,6 +394,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shield_spikes_color (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8f7bdc6d8f6476544bba876d5397cab4, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -409,6 +417,10 @@ PrefabInstance:
     - target: {fileID: 1286613287635706, guid: 8a69016242c038a4eaf828484d85e4be, type: 3}
       propertyPath: m_Name
       value: Fence Post 2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286613287635706, guid: 8a69016242c038a4eaf828484d85e4be, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4285242269941412, guid: 8a69016242c038a4eaf828484d85e4be, type: 3}
       propertyPath: m_LocalScale.x
@@ -565,6 +577,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: weapon-spear (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5fe11121e884f2499f84acbb05083be, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -634,6 +650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: weapon-spear (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5fe11121e884f2499f84acbb05083be, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -650,6 +670,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -837,6 +861,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: box-open (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bc28a37b42fdb974eb3c853f78ee91f8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -908,6 +936,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 85ea955ef0786e94d9d18c8c69059f6f, type: 3}
       propertyPath: m_Name
       value: resource-stone-large (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 85ea955ef0786e94d9d18c8c69059f6f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1009,9 +1041,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7539680413617234126, guid: d3e6a563fe2e8d841b4c46d45487ec3f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d3e6a563fe2e8d841b4c46d45487ec3f, type: 3}
       propertyPath: m_Name
       value: workbench-anvil
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d3e6a563fe2e8d841b4c46d45487ec3f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1068,6 +1108,10 @@ PrefabInstance:
     - target: {fileID: 1372843188443888, guid: 6083fd8d1fc3abe4cba8b091cfdec328, type: 3}
       propertyPath: m_Name
       value: Building 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372843188443888, guid: 6083fd8d1fc3abe4cba8b091cfdec328, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4147533950904372, guid: 6083fd8d1fc3abe4cba8b091cfdec328, type: 3}
       propertyPath: m_LocalScale.x
@@ -1176,6 +1220,10 @@ PrefabInstance:
     - target: {fileID: 1293776915479662, guid: e0565594ee8cb73469477cbef1dbf5e4, type: 3}
       propertyPath: m_Name
       value: Winter Low Cliff 2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1293776915479662, guid: e0565594ee8cb73469477cbef1dbf5e4, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4047974427677122, guid: e0565594ee8cb73469477cbef1dbf5e4, type: 3}
       propertyPath: m_LocalScale.x
@@ -1324,6 +1372,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: column (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6795d101910a38a4fba8c888e44150eb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1427,6 +1479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: box
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fb48c799c9acb474b8fadbf83857c0dd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1446,6 +1502,10 @@ PrefabInstance:
     - target: {fileID: 1064964638160092, guid: 9d4d83e75ce6ff04d868225a2fcc7fcd, type: 3}
       propertyPath: m_Name
       value: Winter Grass 1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1064964638160092, guid: 9d4d83e75ce6ff04d868225a2fcc7fcd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4136289682854898, guid: 9d4d83e75ce6ff04d868225a2fcc7fcd, type: 3}
       propertyPath: m_LocalScale.x
@@ -1546,6 +1606,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -1723,6 +1787,10 @@ PrefabInstance:
     - target: {fileID: 1402962426125188, guid: ab9ca563c6bcafb4fb8094a99b62a0db, type: 3}
       propertyPath: m_Name
       value: Winter Cliff 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1402962426125188, guid: ab9ca563c6bcafb4fb8094a99b62a0db, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4861555289304680, guid: ab9ca563c6bcafb4fb8094a99b62a0db, type: 3}
       propertyPath: m_LocalScale.x
@@ -1905,6 +1973,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: weapon-spear (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5fe11121e884f2499f84acbb05083be, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2048,6 +2120,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock-sand-b
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3688ec2fc6fc15140a4230382aafb6de, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2099,6 +2175,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -2354,6 +2434,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence Post and Slat (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
       value: 122.01117
@@ -2514,6 +2598,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Winter Dead Standing Tree 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1939967105453478, guid: 7ccb909e7a171dd45a77f7d8373ff413, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4005150025907650, guid: 7ccb909e7a171dd45a77f7d8373ff413, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.222553
@@ -2663,6 +2751,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: metal-panel-screws-half
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 342dfe1528be98144a543655f20b9234, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2682,6 +2774,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -2838,6 +2934,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: border-corner (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b8ae91355013ed4b9d197a0e08d0504, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2857,6 +2957,10 @@ PrefabInstance:
     - target: {fileID: 1438662914950872, guid: 1f94a2951b723d24db1222bcd75446dd, type: 3}
       propertyPath: m_Name
       value: Winter Round Tree 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1438662914950872, guid: 1f94a2951b723d24db1222bcd75446dd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4706682870689078, guid: 1f94a2951b723d24db1222bcd75446dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3001,6 +3105,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e5fe11121e884f2499f84acbb05083be, type: 3}
       propertyPath: m_Name
       value: weapon-spear (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5fe11121e884f2499f84acbb05083be, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3176,6 +3284,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Winter Grass 2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1114798733411220, guid: 173572c87831f8c4e99548b474d3211c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4194728440214650, guid: 173572c87831f8c4e99548b474d3211c, type: 3}
       propertyPath: m_LocalScale.x
       value: 141.84001
@@ -3297,6 +3409,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock-sand-b (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3688ec2fc6fc15140a4230382aafb6de, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3401,6 +3517,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: box-large-open
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ad97d9dcef9e7c24f98d4f40fb099ddd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3472,6 +3592,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 78b43a64062252b418a2e899e7cd1e79, type: 3}
       propertyPath: m_Name
       value: resource-stone (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78b43a64062252b418a2e899e7cd1e79, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3654,6 +3778,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b1d39d491738a474085f65bba6061ba7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3673,6 +3801,10 @@ PrefabInstance:
     - target: {fileID: 1064964638160092, guid: 9d4d83e75ce6ff04d868225a2fcc7fcd, type: 3}
       propertyPath: m_Name
       value: Winter Grass 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1064964638160092, guid: 9d4d83e75ce6ff04d868225a2fcc7fcd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4136289682854898, guid: 9d4d83e75ce6ff04d868225a2fcc7fcd, type: 3}
       propertyPath: m_LocalScale.x
@@ -4028,6 +4160,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle-large
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02f6cbcc923269748af19d0be1fb1789, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4157,6 +4293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock-sand-c (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7562822e2cdb0894bad984e9417691e0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4256,6 +4396,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 882fa3a578cba2a41a2568d51b664a6f, type: 3}
       propertyPath: m_Name
       value: block (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 882fa3a578cba2a41a2568d51b664a6f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4423,6 +4567,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Winter Pine Tree 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1301471608553478, guid: 3baa12ad422f7614299673cc8202de8b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4407980503386300, guid: 3baa12ad422f7614299673cc8202de8b, type: 3}
       propertyPath: m_LocalScale.x
       value: 59.931
@@ -4526,6 +4674,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -4739,6 +4891,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: weapon-spear (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5fe11121e884f2499f84acbb05083be, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4807,6 +4963,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 78b43a64062252b418a2e899e7cd1e79, type: 3}
       propertyPath: m_Name
       value: resource-stone (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78b43a64062252b418a2e899e7cd1e79, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4912,6 +5072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: weapon-spear (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5fe11121e884f2499f84acbb05083be, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4929,7 +5093,7 @@ GameObject:
   - component: {fileID: 276685211}
   - component: {fileID: 276685210}
   - component: {fileID: 276685209}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5060,6 +5224,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -5194,6 +5362,10 @@ PrefabInstance:
     - target: {fileID: 1405490430040014, guid: 7c8c9908aa1f952438b328d29b27e00c, type: 3}
       propertyPath: m_Name
       value: Cylinder.049
+      objectReference: {fileID: 0}
+    - target: {fileID: 1405490430040014, guid: 7c8c9908aa1f952438b328d29b27e00c, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4923914967110154, guid: 7c8c9908aa1f952438b328d29b27e00c, type: 3}
       propertyPath: m_LocalScale.x
@@ -5356,6 +5528,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stairs (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65075dca480d01d4580a0e2859e3b746, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5406,6 +5582,10 @@ PrefabInstance:
     - target: {fileID: 1460546751964496, guid: 02392c8ccbd380247b6066a73eb5209b, type: 3}
       propertyPath: m_Name
       value: Winter Pine Tree 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460546751964496, guid: 02392c8ccbd380247b6066a73eb5209b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4289669418769644, guid: 02392c8ccbd380247b6066a73eb5209b, type: 3}
       propertyPath: m_LocalScale.x
@@ -5747,6 +5927,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: signpost-single
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ccf160d129612754ba49bef284711307, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5806,6 +5990,10 @@ PrefabInstance:
     - target: {fileID: 1293776915479662, guid: e0565594ee8cb73469477cbef1dbf5e4, type: 3}
       propertyPath: m_Name
       value: Winter Low Cliff 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1293776915479662, guid: e0565594ee8cb73469477cbef1dbf5e4, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4047974427677122, guid: e0565594ee8cb73469477cbef1dbf5e4, type: 3}
       propertyPath: m_LocalScale.x
@@ -6007,6 +6195,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -6371,6 +6563,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: border-straight (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 499c238e4df604348b5550abfe2f710c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6390,6 +6586,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -6546,6 +6746,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: resource-stone (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78b43a64062252b418a2e899e7cd1e79, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6660,6 +6864,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: resource-stone (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78b43a64062252b418a2e899e7cd1e79, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6711,6 +6919,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -6940,6 +7152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence Post and Slat (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
       value: 122.011154
@@ -7128,6 +7344,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock-sand-a
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f329e1f9bd6a38542bb577f019af5fd1, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7195,6 +7415,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d48b34ec01612a444b3d38c7dfd6f05c, type: 3}
       propertyPath: m_Name
       value: shield_badge_color
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d48b34ec01612a444b3d38c7dfd6f05c, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7492,6 +7716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shield_round
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 310891d313703c140af5cb08744a4db8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7596,6 +7824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shield_square
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6d27f034d44f1634db2abdb75078c194, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7615,6 +7847,10 @@ PrefabInstance:
     - target: {fileID: 1286613287635706, guid: 8a69016242c038a4eaf828484d85e4be, type: 3}
       propertyPath: m_Name
       value: Fence Post 2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286613287635706, guid: 8a69016242c038a4eaf828484d85e4be, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4285242269941412, guid: 8a69016242c038a4eaf828484d85e4be, type: 3}
       propertyPath: m_LocalScale.x
@@ -7771,6 +8007,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock-flat
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 888269d23cf9b16449ac9bdeb0656d33, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7907,6 +8147,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: block (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 882fa3a578cba2a41a2568d51b664a6f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7964,6 +8208,10 @@ PrefabInstance:
     - target: {fileID: 1438662914950872, guid: 1f94a2951b723d24db1222bcd75446dd, type: 3}
       propertyPath: m_Name
       value: Winter Round Tree 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1438662914950872, guid: 1f94a2951b723d24db1222bcd75446dd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4706682870689078, guid: 1f94a2951b723d24db1222bcd75446dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8061,6 +8309,10 @@ PrefabInstance:
     - target: {fileID: 1347955944192992, guid: 03d51debf4b659f4fa4c76c2c4ca3e3b, type: 3}
       propertyPath: m_Name
       value: Winter Ground Plant 1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1347955944192992, guid: 03d51debf4b659f4fa4c76c2c4ca3e3b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4315833906803546, guid: 03d51debf4b659f4fa4c76c2c4ca3e3b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8161,6 +8413,10 @@ PrefabInstance:
     - target: {fileID: 1306358410812886, guid: 201c408e6c893d241abbe2cbc0e032dd, type: 3}
       propertyPath: m_Name
       value: Winter Shrub 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306358410812886, guid: 201c408e6c893d241abbe2cbc0e032dd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4211088460254072, guid: 201c408e6c893d241abbe2cbc0e032dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8338,6 +8594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: resource-stone
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78b43a64062252b418a2e899e7cd1e79, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8409,6 +8669,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e5fe11121e884f2499f84acbb05083be, type: 3}
       propertyPath: m_Name
       value: weapon-spear (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5fe11121e884f2499f84acbb05083be, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8509,6 +8773,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a2e1f95b162e8234baa5b520e85fba34, type: 3}
       propertyPath: m_Name
       value: statue (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a2e1f95b162e8234baa5b520e85fba34, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8651,6 +8919,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: border-straight (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 499c238e4df604348b5550abfe2f710c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8670,6 +8942,10 @@ PrefabInstance:
     - target: {fileID: 1064964638160092, guid: 9d4d83e75ce6ff04d868225a2fcc7fcd, type: 3}
       propertyPath: m_Name
       value: Winter Grass 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1064964638160092, guid: 9d4d83e75ce6ff04d868225a2fcc7fcd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4136289682854898, guid: 9d4d83e75ce6ff04d868225a2fcc7fcd, type: 3}
       propertyPath: m_LocalScale.x
@@ -8787,6 +9063,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 882fa3a578cba2a41a2568d51b664a6f, type: 3}
       propertyPath: m_Name
       value: block (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 882fa3a578cba2a41a2568d51b664a6f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8917,6 +9197,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8059746ee4e282649818b5defad6f1fa, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9039,7 +9323,7 @@ GameObject:
   - component: {fileID: 601953600}
   - component: {fileID: 601953602}
   - component: {fileID: 601953601}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9175,6 +9459,10 @@ PrefabInstance:
     - target: {fileID: 1939967105453478, guid: 7ccb909e7a171dd45a77f7d8373ff413, type: 3}
       propertyPath: m_Name
       value: Winter Dead Standing Tree 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1939967105453478, guid: 7ccb909e7a171dd45a77f7d8373ff413, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4005150025907650, guid: 7ccb909e7a171dd45a77f7d8373ff413, type: 3}
       propertyPath: m_LocalScale.x
@@ -9316,6 +9604,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Winter Grass 2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1114798733411220, guid: 173572c87831f8c4e99548b474d3211c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4194728440214650, guid: 173572c87831f8c4e99548b474d3211c, type: 3}
       propertyPath: m_LocalScale.x
       value: 141.84001
@@ -9456,6 +9748,10 @@ PrefabInstance:
     - target: {fileID: 1347955944192992, guid: 03d51debf4b659f4fa4c76c2c4ca3e3b, type: 3}
       propertyPath: m_Name
       value: Winter Ground Plant 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1347955944192992, guid: 03d51debf4b659f4fa4c76c2c4ca3e3b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4315833906803546, guid: 03d51debf4b659f4fa4c76c2c4ca3e3b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9764,6 +10060,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stairs-corner (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 49f3ea3a151b01a458cb8f98d21af941, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9881,6 +10181,10 @@ PrefabInstance:
     - target: {fileID: 1114798733411220, guid: 173572c87831f8c4e99548b474d3211c, type: 3}
       propertyPath: m_Name
       value: Winter Grass 2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114798733411220, guid: 173572c87831f8c4e99548b474d3211c, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4194728440214650, guid: 173572c87831f8c4e99548b474d3211c, type: 3}
       propertyPath: m_LocalScale.x
@@ -10168,6 +10472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence Post and Slat (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
       value: 122.01117
@@ -10323,6 +10631,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: campfire-pit
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a7ec6f328f5afcd44b9c5de20d8e20a2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3483068211074573027, guid: a7ec6f328f5afcd44b9c5de20d8e20a2, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10395,6 +10711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: border-corner
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b8ae91355013ed4b9d197a0e08d0504, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10414,6 +10734,10 @@ PrefabInstance:
     - target: {fileID: 1114798733411220, guid: 173572c87831f8c4e99548b474d3211c, type: 3}
       propertyPath: m_Name
       value: Winter Grass 2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114798733411220, guid: 173572c87831f8c4e99548b474d3211c, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4194728440214650, guid: 173572c87831f8c4e99548b474d3211c, type: 3}
       propertyPath: m_LocalScale.x
@@ -10778,6 +11102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: weapon-spear (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5fe11121e884f2499f84acbb05083be, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10794,6 +11122,10 @@ PrefabInstance:
     - target: {fileID: 1301619487167056, guid: bba7fb7fa4870b649bc67d73608ea962, type: 3}
       propertyPath: m_Name
       value: Winter Fallen Log
+      objectReference: {fileID: 0}
+    - target: {fileID: 1301619487167056, guid: bba7fb7fa4870b649bc67d73608ea962, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4017547231040164, guid: bba7fb7fa4870b649bc67d73608ea962, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10938,6 +11270,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 020b125b7e8d3274894aa0f61beb7519, type: 3}
       propertyPath: m_Name
       value: box-large
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 020b125b7e8d3274894aa0f61beb7519, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11167,6 +11503,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spellbook_open
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36284f8026452d84e8109f863e8fbd7b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11307,6 +11647,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 78b43a64062252b418a2e899e7cd1e79, type: 3}
       propertyPath: m_Name
       value: resource-stone (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78b43a64062252b418a2e899e7cd1e79, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11590,6 +11934,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -11886,6 +12234,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Winter Tree Stump 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1306809153992252, guid: 85db8400d4b8ec640ae6b810595c90e8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4694590640330674, guid: 85db8400d4b8ec640ae6b810595c90e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.18
@@ -11978,7 +12330,7 @@ GameObject:
   - component: {fileID: 825530595}
   - component: {fileID: 825530594}
   - component: {fileID: 825530593}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12109,6 +12461,10 @@ PrefabInstance:
     - target: {fileID: 1990558428345074, guid: c78c919bddc999441b9240e095cd3b3b, type: 3}
       propertyPath: m_Name
       value: Winter Pine Tree 3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990558428345074, guid: c78c919bddc999441b9240e095cd3b3b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4041744451404356, guid: c78c919bddc999441b9240e095cd3b3b, type: 3}
       propertyPath: m_LocalScale.x
@@ -12266,6 +12622,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8059746ee4e282649818b5defad6f1fa, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12337,6 +12697,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b1d39d491738a474085f65bba6061ba7, type: 3}
       propertyPath: m_Name
       value: bottle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b1d39d491738a474085f65bba6061ba7, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12476,6 +12840,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: resource-stone-large (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 85ea955ef0786e94d9d18c8c69059f6f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12532,6 +12900,10 @@ PrefabInstance:
     - target: {fileID: 1064964638160092, guid: 9d4d83e75ce6ff04d868225a2fcc7fcd, type: 3}
       propertyPath: m_Name
       value: Winter Grass 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1064964638160092, guid: 9d4d83e75ce6ff04d868225a2fcc7fcd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4136289682854898, guid: 9d4d83e75ce6ff04d868225a2fcc7fcd, type: 3}
       propertyPath: m_LocalScale.x
@@ -12721,6 +13093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: resource-stone (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78b43a64062252b418a2e899e7cd1e79, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12825,6 +13201,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: axe_2handed
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3bdb8afb2ea2a2040b740f99db766107, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12902,6 +13282,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bricks
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5077214ca1873bd4c9eeedb29a897302, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12953,6 +13337,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b1d39d491738a474085f65bba6061ba7, type: 3}
   m_PrefabInstance: {fileID: 830102365}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &951856496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 951856498}
+  - component: {fileID: 951856497}
+  - component: {fileID: 951856499}
+  m_Layer: 5
+  m_Name: SettingsUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &951856497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951856496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: f42d44f6ec1c57448bdf2d5c3b36d921, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 0a618f23332be3840a3492da97779c1f, type: 3}
+  m_SortingOrder: 0
+--- !u!4 &951856498
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951856496}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &951856499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951856496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e51d4a0cedd00f4aa378f6e076aa612, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isMainMenu: 0
 --- !u!1001 &953370731
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12964,6 +13410,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -13119,6 +13569,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 499c238e4df604348b5550abfe2f710c, type: 3}
       propertyPath: m_Name
       value: border-straight (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 499c238e4df604348b5550abfe2f710c, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13297,6 +13751,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock-sand-c (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7562822e2cdb0894bad984e9417691e0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13316,6 +13774,10 @@ PrefabInstance:
     - target: {fileID: 1918419700197574, guid: d23427eb0e5fcf9469c73a7e55668ade, type: 3}
       propertyPath: m_Name
       value: Winter Pine Tree 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918419700197574, guid: d23427eb0e5fcf9469c73a7e55668ade, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4569126655654614, guid: d23427eb0e5fcf9469c73a7e55668ade, type: 3}
       propertyPath: m_LocalScale.x
@@ -13425,6 +13887,10 @@ PrefabInstance:
     - target: {fileID: 1347955944192992, guid: 03d51debf4b659f4fa4c76c2c4ca3e3b, type: 3}
       propertyPath: m_Name
       value: Winter Ground Plant 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1347955944192992, guid: 03d51debf4b659f4fa4c76c2c4ca3e3b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4315833906803546, guid: 03d51debf4b659f4fa4c76c2c4ca3e3b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13555,6 +14021,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Winter Grass 1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1064964638160092, guid: 9d4d83e75ce6ff04d868225a2fcc7fcd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4136289682854898, guid: 9d4d83e75ce6ff04d868225a2fcc7fcd, type: 3}
       propertyPath: m_LocalScale.x
       value: 141.84001
@@ -13680,6 +14150,10 @@ PrefabInstance:
     - target: {fileID: 1301471608553478, guid: 3baa12ad422f7614299673cc8202de8b, type: 3}
       propertyPath: m_Name
       value: Winter Pine Tree 4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1301471608553478, guid: 3baa12ad422f7614299673cc8202de8b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4407980503386300, guid: 3baa12ad422f7614299673cc8202de8b, type: 3}
       propertyPath: m_LocalScale.x
@@ -13847,6 +14321,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: metal-panel-screws-half (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 342dfe1528be98144a543655f20b9234, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13977,6 +14455,10 @@ PrefabInstance:
     - target: {fileID: 1114798733411220, guid: 173572c87831f8c4e99548b474d3211c, type: 3}
       propertyPath: m_Name
       value: Winter Grass 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114798733411220, guid: 173572c87831f8c4e99548b474d3211c, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4194728440214650, guid: 173572c87831f8c4e99548b474d3211c, type: 3}
       propertyPath: m_LocalScale.x
@@ -14147,6 +14629,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrel-open
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 85cd5bce8e1c33b44967eb07652b1bab, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14224,6 +14710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: block
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 882fa3a578cba2a41a2568d51b664a6f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14246,6 +14736,10 @@ PrefabInstance:
     - target: {fileID: 1286613287635706, guid: 8a69016242c038a4eaf828484d85e4be, type: 3}
       propertyPath: m_Name
       value: Fence Post 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286613287635706, guid: 8a69016242c038a4eaf828484d85e4be, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4285242269941412, guid: 8a69016242c038a4eaf828484d85e4be, type: 3}
       propertyPath: m_LocalScale.x
@@ -14433,6 +14927,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: column-damaged (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bda4305abab4bd94b95d38d286fe35c3, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14462,6 +14960,10 @@ PrefabInstance:
     - target: {fileID: 1939967105453478, guid: 7ccb909e7a171dd45a77f7d8373ff413, type: 3}
       propertyPath: m_Name
       value: Winter Dead Standing Tree 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1939967105453478, guid: 7ccb909e7a171dd45a77f7d8373ff413, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4005150025907650, guid: 7ccb909e7a171dd45a77f7d8373ff413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14775,6 +15277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence Post and Slat (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
       value: 122.01117
@@ -14987,6 +15493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: border-straight (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 499c238e4df604348b5550abfe2f710c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15006,6 +15516,10 @@ PrefabInstance:
     - target: {fileID: 1293776915479662, guid: e0565594ee8cb73469477cbef1dbf5e4, type: 3}
       propertyPath: m_Name
       value: Winter Low Cliff 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1293776915479662, guid: e0565594ee8cb73469477cbef1dbf5e4, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4047974427677122, guid: e0565594ee8cb73469477cbef1dbf5e4, type: 3}
       propertyPath: m_LocalScale.x
@@ -15111,6 +15625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence Post and Slat (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
       value: 122.01116
@@ -15214,6 +15732,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence Post and Slat (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
       value: 122.01117
@@ -15316,6 +15838,10 @@ PrefabInstance:
     - target: {fileID: 1918419700197574, guid: d23427eb0e5fcf9469c73a7e55668ade, type: 3}
       propertyPath: m_Name
       value: Winter Pine Tree 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918419700197574, guid: d23427eb0e5fcf9469c73a7e55668ade, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4569126655654614, guid: d23427eb0e5fcf9469c73a7e55668ade, type: 3}
       propertyPath: m_LocalScale.x
@@ -15473,6 +15999,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bucket (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: de31c54bee592204f9ef1af82ea32d56, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15492,6 +16022,10 @@ PrefabInstance:
     - target: {fileID: 1892361737580300, guid: 1255157e0357f974da560a578344a022, type: 3}
       propertyPath: m_Name
       value: Sign Post
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892361737580300, guid: 1255157e0357f974da560a578344a022, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4438177087027770, guid: 1255157e0357f974da560a578344a022, type: 3}
       propertyPath: m_LocalScale.y
@@ -15588,6 +16122,10 @@ PrefabInstance:
     - target: {fileID: 1103060051400432, guid: 52bee727bfaf82e4fa0fdbc68b4f1643, type: 3}
       propertyPath: m_Name
       value: Winter Rock 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103060051400432, guid: 52bee727bfaf82e4fa0fdbc68b4f1643, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4700251886319240, guid: 52bee727bfaf82e4fa0fdbc68b4f1643, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16017,6 +16555,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence Post and Slat (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
       value: 122.01117
@@ -16119,6 +16661,10 @@ PrefabInstance:
     - target: {fileID: 1317041649968840, guid: 1161c4f17e125aa4098c1ff0d896c587, type: 3}
       propertyPath: m_Name
       value: Winter Ground Plant 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317041649968840, guid: 1161c4f17e125aa4098c1ff0d896c587, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4365488794577076, guid: 1161c4f17e125aa4098c1ff0d896c587, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16234,6 +16780,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stairs (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65075dca480d01d4580a0e2859e3b746, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16337,6 +16887,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: border-straight (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 499c238e4df604348b5550abfe2f710c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16439,6 +16993,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e5fe11121e884f2499f84acbb05083be, type: 3}
       propertyPath: m_Name
       value: weapon-spear (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5fe11121e884f2499f84acbb05083be, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16703,6 +17261,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: column-damaged (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bda4305abab4bd94b95d38d286fe35c3, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16805,6 +17367,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 78b43a64062252b418a2e899e7cd1e79, type: 3}
       propertyPath: m_Name
       value: resource-stone (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78b43a64062252b418a2e899e7cd1e79, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17055,9 +17621,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7539680413617234126, guid: 4091b1b1c7f4abe438d1f6512d1a9168, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -435065460499414210, guid: 4091b1b1c7f4abe438d1f6512d1a9168, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4091b1b1c7f4abe438d1f6512d1a9168, type: 3}
       propertyPath: m_Name
       value: workbench (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4091b1b1c7f4abe438d1f6512d1a9168, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17438,6 +18016,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Winter Cliff 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1110758906051662, guid: 8cf2af787635d7d40b1d72ecdceac179, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4439632953340670, guid: 8cf2af787635d7d40b1d72ecdceac179, type: 3}
       propertyPath: m_LocalScale.x
       value: 37.771225
@@ -17630,6 +18212,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stairs-corner (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 49f3ea3a151b01a458cb8f98d21af941, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17685,6 +18271,10 @@ PrefabInstance:
     - target: {fileID: 1293776915479662, guid: e0565594ee8cb73469477cbef1dbf5e4, type: 3}
       propertyPath: m_Name
       value: Winter Low Cliff 2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1293776915479662, guid: e0565594ee8cb73469477cbef1dbf5e4, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4047974427677122, guid: e0565594ee8cb73469477cbef1dbf5e4, type: 3}
       propertyPath: m_LocalScale.x
@@ -18045,6 +18635,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: weapon-spear (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5fe11121e884f2499f84acbb05083be, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18061,6 +18655,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -18164,6 +18762,10 @@ PrefabInstance:
     - target: {fileID: 1746356898589636, guid: cf65a66ef06adf74db640e9cd93ed80b, type: 3}
       propertyPath: m_Name
       value: Winter Cliff 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1746356898589636, guid: cf65a66ef06adf74db640e9cd93ed80b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4491983365760958, guid: cf65a66ef06adf74db640e9cd93ed80b, type: 3}
       propertyPath: m_LocalScale.x
@@ -18273,6 +18875,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -18429,6 +19035,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: resource-stone (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78b43a64062252b418a2e899e7cd1e79, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18517,6 +19127,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -18683,6 +19297,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stairs (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65075dca480d01d4580a0e2859e3b746, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18702,6 +19320,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -18941,6 +19563,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Winter Low Cliff 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1694797065894640, guid: e3297db3c743f5c41a5aa3d5d0c7c87c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4967041071638634, guid: e3297db3c743f5c41a5aa3d5d0c7c87c, type: 3}
       propertyPath: m_LocalScale.x
       value: 81.97731
@@ -19042,7 +19668,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1493562676}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Map3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19260,6 +19886,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stairs (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65075dca480d01d4580a0e2859e3b746, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19332,6 +19962,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bricks (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5077214ca1873bd4c9eeedb29a897302, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19403,6 +20037,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e5fe11121e884f2499f84acbb05083be, type: 3}
       propertyPath: m_Name
       value: weapon-spear (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5fe11121e884f2499f84acbb05083be, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19545,6 +20183,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: resource-stone (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78b43a64062252b418a2e899e7cd1e79, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19596,6 +20238,10 @@ PrefabInstance:
     - target: {fileID: 1990558428345074, guid: c78c919bddc999441b9240e095cd3b3b, type: 3}
       propertyPath: m_Name
       value: Winter Pine Tree 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990558428345074, guid: c78c919bddc999441b9240e095cd3b3b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4041744451404356, guid: c78c919bddc999441b9240e095cd3b3b, type: 3}
       propertyPath: m_LocalScale.x
@@ -19784,6 +20430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stairs (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65075dca480d01d4580a0e2859e3b746, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19856,6 +20506,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: weapon-spear (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5fe11121e884f2499f84acbb05083be, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19903,6 +20557,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -20007,6 +20665,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Winter Ground Plant 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1347955944192992, guid: 03d51debf4b659f4fa4c76c2c4ca3e3b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4315833906803546, guid: 03d51debf4b659f4fa4c76c2c4ca3e3b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.783573
@@ -20095,6 +20757,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Winter Arch
       objectReference: {fileID: 0}
+    - target: {fileID: 1208310752349460, guid: 7f8b9c08d96258f41ae39a26936e28fe, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4082142694836298, guid: 7f8b9c08d96258f41ae39a26936e28fe, type: 3}
       propertyPath: m_LocalScale.x
       value: 34.610287
@@ -20176,6 +20842,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -20475,6 +21145,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence Post and Slat (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
       value: 122.01118
@@ -20577,6 +21251,10 @@ PrefabInstance:
     - target: {fileID: 1707272141775932, guid: 7a53d66a5ef4ff547ab0a53d940a82ab, type: 3}
       propertyPath: m_Name
       value: Winter Shrub 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1707272141775932, guid: 7a53d66a5ef4ff547ab0a53d940a82ab, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4507019223771850, guid: 7a53d66a5ef4ff547ab0a53d940a82ab, type: 3}
       propertyPath: m_LocalScale.x
@@ -20791,6 +21469,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Winter Ground Plant 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1347955944192992, guid: 03d51debf4b659f4fa4c76c2c4ca3e3b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4315833906803546, guid: 03d51debf4b659f4fa4c76c2c4ca3e3b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -17.714493
@@ -20974,6 +21656,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: resource-stone (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78b43a64062252b418a2e899e7cd1e79, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21109,6 +21795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: border-straight (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 499c238e4df604348b5550abfe2f710c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21238,6 +21928,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: resource-stone-large
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 85ea955ef0786e94d9d18c8c69059f6f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21309,6 +22003,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9db8612293b6d9745b401ec2483aef4b, type: 3}
       propertyPath: m_Name
       value: barrel
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9db8612293b6d9745b401ec2483aef4b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21382,6 +22080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stairs-corner (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 49f3ea3a151b01a458cb8f98d21af941, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21453,6 +22155,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 499c238e4df604348b5550abfe2f710c, type: 3}
       propertyPath: m_Name
       value: border-straight (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 499c238e4df604348b5550abfe2f710c, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21558,9 +22264,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1751480086967751553, guid: 4ca46694591a78b4dab4c00ab69890c8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4ca46694591a78b4dab4c00ab69890c8, type: 3}
       propertyPath: m_Name
       value: chest
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4ca46694591a78b4dab4c00ab69890c8, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21586,6 +22300,10 @@ PrefabInstance:
     - target: {fileID: 1064964638160092, guid: 9d4d83e75ce6ff04d868225a2fcc7fcd, type: 3}
       propertyPath: m_Name
       value: Winter Grass 1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1064964638160092, guid: 9d4d83e75ce6ff04d868225a2fcc7fcd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4136289682854898, guid: 9d4d83e75ce6ff04d868225a2fcc7fcd, type: 3}
       propertyPath: m_LocalScale.x
@@ -21691,7 +22409,7 @@ GameObject:
   - component: {fileID: 1740779669}
   - component: {fileID: 1740779671}
   - component: {fileID: 1740779670}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21827,6 +22545,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -21983,6 +22705,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: block (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 882fa3a578cba2a41a2568d51b664a6f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22071,6 +22797,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -22174,6 +22904,10 @@ PrefabInstance:
     - target: {fileID: 1317041649968840, guid: 1161c4f17e125aa4098c1ff0d896c587, type: 3}
       propertyPath: m_Name
       value: Winter Ground Plant 2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317041649968840, guid: 1161c4f17e125aa4098c1ff0d896c587, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4365488794577076, guid: 1161c4f17e125aa4098c1ff0d896c587, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22319,6 +23053,10 @@ PrefabInstance:
     - target: {fileID: 1114798733411220, guid: 173572c87831f8c4e99548b474d3211c, type: 3}
       propertyPath: m_Name
       value: Winter Grass 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114798733411220, guid: 173572c87831f8c4e99548b474d3211c, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4194728440214650, guid: 173572c87831f8c4e99548b474d3211c, type: 3}
       propertyPath: m_LocalScale.x
@@ -22575,6 +23313,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: block (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 882fa3a578cba2a41a2568d51b664a6f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22677,6 +23419,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock-sand-c (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7562822e2cdb0894bad984e9417691e0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22733,6 +23479,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -22966,7 +23716,7 @@ GameObject:
   - component: {fileID: 1819677874}
   - component: {fileID: 1819677873}
   - component: {fileID: 1819677872}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23262,6 +24012,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stairs (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65075dca480d01d4580a0e2859e3b746, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23526,9 +24280,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1751480086967751553, guid: 4ca46694591a78b4dab4c00ab69890c8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4ca46694591a78b4dab4c00ab69890c8, type: 3}
       propertyPath: m_Name
       value: chest
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4ca46694591a78b4dab4c00ab69890c8, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23602,6 +24364,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: box-open
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bc28a37b42fdb974eb3c853f78ee91f8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23673,6 +24439,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 49f3ea3a151b01a458cb8f98d21af941, type: 3}
       propertyPath: m_Name
       value: stairs-corner
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 49f3ea3a151b01a458cb8f98d21af941, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23899,6 +24669,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: banner
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dc1b23b9545f5fd45bdbde99a32d7176, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24047,6 +24821,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: column (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6795d101910a38a4fba8c888e44150eb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24133,6 +24911,10 @@ PrefabInstance:
     - target: {fileID: 1487683352328500, guid: c288b9e9dd9d8164cbd0b8c3aecb02e9, type: 3}
       propertyPath: m_Name
       value: Water Well
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487683352328500, guid: c288b9e9dd9d8164cbd0b8c3aecb02e9, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4945774473893138, guid: c288b9e9dd9d8164cbd0b8c3aecb02e9, type: 3}
       propertyPath: m_LocalScale.x
@@ -24300,6 +25082,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Winter Rock 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1257872027978266, guid: 30117b0930be222468df2cb044a94fd1, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4776677457597204, guid: 30117b0930be222468df2cb044a94fd1, type: 3}
       propertyPath: m_LocalScale.x
       value: 62.576374
@@ -24456,6 +25242,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: border-straight (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 499c238e4df604348b5550abfe2f710c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24506,6 +25296,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -24753,6 +25547,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence Post and Slat (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
       value: 122.01117
@@ -24997,6 +25795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain
       objectReference: {fileID: 0}
+    - target: {fileID: 1481293156768936, guid: 592f07b6f867353459b04edec19df3bb, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4018716189648392, guid: 592f07b6f867353459b04edec19df3bb, type: 3}
       propertyPath: m_LocalScale.x
       value: 44.806206
@@ -25153,6 +25955,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: resource-stone (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78b43a64062252b418a2e899e7cd1e79, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25290,6 +26096,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle-large (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02f6cbcc923269748af19d0be1fb1789, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25359,6 +26169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: campfire-stand
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dcebd862807be0942ba3a2a976e93185, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25378,6 +26192,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -25530,6 +26348,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: block (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 882fa3a578cba2a41a2568d51b664a6f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25601,6 +26423,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3688ec2fc6fc15140a4230382aafb6de, type: 3}
       propertyPath: m_Name
       value: rock-sand-b (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3688ec2fc6fc15140a4230382aafb6de, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25852,6 +26678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock-sand-c
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7562822e2cdb0894bad984e9417691e0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25956,6 +26786,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: trophy
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1a419313eac3e8446b7a98c7e58ffa75, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26059,6 +26893,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shield_square_color (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5bb874fbcb97b294585d81918292c0cc, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26078,6 +26916,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -26635,6 +27477,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: border-straight (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 499c238e4df604348b5550abfe2f710c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26760,6 +27606,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Winter Ground Plant 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1317041649968840, guid: 1161c4f17e125aa4098c1ff0d896c587, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4365488794577076, guid: 1161c4f17e125aa4098c1ff0d896c587, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.822208
@@ -26816,6 +27666,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -27132,6 +27986,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bricks (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5077214ca1873bd4c9eeedb29a897302, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27208,6 +28066,10 @@ PrefabInstance:
     - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_Name
       value: Fence Post and Slat (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
@@ -27312,6 +28174,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence Post and Slat
       objectReference: {fileID: 0}
+    - target: {fileID: 1030716683527058, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4948880241294746, guid: 2429ba3ee4494ad4d92f7acf477c2e77, type: 3}
       propertyPath: m_LocalScale.x
       value: 122.011154
@@ -27414,6 +28280,10 @@ PrefabInstance:
     - target: {fileID: 1746220295916558, guid: 6ddfb14f0d664064faafaa4497219d2c, type: 3}
       propertyPath: m_Name
       value: Winter Dead Standing Tree 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1746220295916558, guid: 6ddfb14f0d664064faafaa4497219d2c, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4625007310106438, guid: 6ddfb14f0d664064faafaa4497219d2c, type: 3}
       propertyPath: m_LocalScale.x
@@ -27739,6 +28609,22 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1924524958000088278, guid: 51be0bb90ab687244b858844c481a81e, type: 3}
+      propertyPath: jumpForce
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1924524958000088278, guid: 51be0bb90ab687244b858844c481a81e, type: 3}
+      propertyPath: fallMultiplier
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1924524958000088278, guid: 51be0bb90ab687244b858844c481a81e, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1924524958000088278, guid: 51be0bb90ab687244b858844c481a81e, type: 3}
+      propertyPath: groundCheckDistance
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3896534889633084267, guid: 51be0bb90ab687244b858844c481a81e, type: 3}
       propertyPath: m_Name
       value: Character
@@ -27991,6 +28877,10 @@ PrefabInstance:
     - target: {fileID: 8850498451914546423, guid: 37e4b6335aae40d459da679879cf4c1f, type: 3}
       propertyPath: m_Name
       value: Map
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850498451914546423, guid: 37e4b6335aae40d459da679879cf4c1f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -28332,3 +29222,4 @@ SceneRoots:
   - {fileID: 675244398}
   - {fileID: 1493562676}
   - {fileID: 706589474}
+  - {fileID: 951856498}

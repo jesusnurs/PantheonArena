@@ -25,6 +25,10 @@ public class PlayerAttackController : MonoBehaviour
 
     private void Update()
     {
+        // Don't process input if game is paused
+        if (Time.timeScale == 0)
+            return;
+        
         if (Input.GetMouseButton(0) && Time.time > timeToFire)
         {
             timeToFire = Time.time + attackData.BasicCooldown;
@@ -34,13 +38,11 @@ public class PlayerAttackController : MonoBehaviour
 
     private void ShootProjectile()
     {
-        var (success, position) = playerController.GetMousePosition();
+        var (success, targetPosition) = playerController.GetMousePosition();
         if (success)
         {
-            Vector3 direction = (position - transform.position);
-            direction.y = 0; 
+            Vector3 direction = (targetPosition - firePoint.position);
             direction.Normalize();
-
             destination = direction;
             InstantiateProjectile();
         }

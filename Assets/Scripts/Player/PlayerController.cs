@@ -1,5 +1,6 @@
 using Data;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Player
 {
@@ -8,18 +9,29 @@ namespace Player
         [Header("Movement Settings")]
         [SerializeField] private PlayerMovementData movementData;
 
-        private bool isGrounded;
-        private Vector3 moveDirection;
-        private Vector3 currentVelocity;
-        private Animator animator;
-        private Rigidbody rb;
-        private Camera mainCamera;
+        private Vector3 _moveDirection;
+        private Vector3 _currentVelocity;
+        private Animator _animator;
+        private Rigidbody _rb;
+        private Camera _mainCamera;
+        
+        [Header("Jump Settings")]
+        [SerializeField] private float jumpForce = 5f;
+        [SerializeField] private float groundCheckDistance = 0.2f;
+        [SerializeField] private LayerMask groundLayer;
+        [SerializeField] private float fallMultiplier = 2.5f;
+
+        private bool _isGrounded;
 
         private void Start()
         {
-            rb = GetComponent<Rigidbody>();
-            animator = GetComponentInChildren<Animator>();
-            mainCamera = Camera.main;
+            if (SceneManager.GetActiveScene().name == "MainMenu")
+            {
+                gameObject.SetActive(false);
+            }
+            _rb = GetComponent<Rigidbody>();
+            _animator = GetComponentInChildren<Animator>();
+            _mainCamera = Camera.main;
         }
 
         private void Update()
@@ -32,53 +44,86 @@ namespace Player
         private void FixedUpdate()
         {
             ApplyMovement();
+            if (_rb.velocity.y < 0)
+            {
+                _rb.velocity += Vector3.up * Physics.gravity.y * (fallMultiplier - 1) * Time.fixedDeltaTime;
+            }
         }
 
         private void CheckGrounded()
-        {
-            isGrounded = Physics.Raycast(transform.position + Vector3.up * 0.1f, Vector3.down,
-                movementData.GroundCheckDistance, movementData.GroundLayer);
-        }
-
+            {
+                Debug.DrawRay(transform.position + Vector3.up * 0.1f, Vector3.down * groundCheckDistance, Color.red);
+                
+                _isGrounded = Physics.SphereCast(
+                    transform.position + Vector3.up * 0.1f,
+                    0.2f,
+                    Vector3.down,
+                    out var hit,
+                    groundCheckDistance,
+                    groundLayer
+                );
+            }
         private void HandleInput()
         {
             // Get movement input
-            float horizontal = Input.GetAxisRaw("Horizontal");
-            float vertical = Input.GetAxisRaw("Vertical");
+            var horizontal = Input.GetAxisRaw("Horizontal");
+            var vertical = Input.GetAxisRaw("Vertical");
 
             // Convert input to isometric direction
-            Vector3 input = new Vector3(horizontal, 0f, vertical).normalized;
-            moveDirection = ConvertToIsometric(input);
+            var input = new Vector3(horizontal, 0f, vertical).normalized;
+            _moveDirection = ConvertToIsometric(input);
+            if (Input.GetButtonDown("Jump"))
+            {
+                Jump();
+            }
         }
+        
+        private void Jump()
+        {
 
+            if (!_isGrounded)
+            {
+                Debug.Log("Not grounded");
+                return;
+            }
+            Debug.Log("Jumping!");
+
+            _rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+                
+            if (_animator != null)
+            {
+                _animator.SetTrigger("Jump");
+            }
+        }
+            
         private void ApplyMovement()
         {
             // Apply gravity multiplier for smoother falling
-            if (rb.velocity.y < 0)
+            if (_rb.velocity.y < 0)
             {
-                rb.velocity += Vector3.up * Physics.gravity.y * (movementData.FallMultiplier - 1) * Time.fixedDeltaTime;
+                _rb.velocity += Vector3.up * Physics.gravity.y * (movementData.FallMultiplier - 1) * Time.fixedDeltaTime;
             }
 
             // Apply movement
-            if (moveDirection.magnitude > 0.1f)
+            if (_moveDirection.magnitude > 0.1f)
             {
                 // Accelerate
-                currentVelocity = Vector3.Lerp(currentVelocity, moveDirection * movementData.MoveSpeed,
+                _currentVelocity = Vector3.Lerp(_currentVelocity, _moveDirection * movementData.MoveSpeed,
                     movementData.Acceleration * Time.fixedDeltaTime);
             }
             else
             {
                 // Decelerate
-                currentVelocity = Vector3.Lerp(currentVelocity, Vector3.zero, movementData.Deceleration * Time.fixedDeltaTime);
+                _currentVelocity = Vector3.Lerp(_currentVelocity, Vector3.zero, movementData.Deceleration * Time.fixedDeltaTime);
             }
 
             // Apply movement to rigidbody
-            rb.MovePosition(rb.position + currentVelocity * Time.fixedDeltaTime);
+            _rb.MovePosition(_rb.position + _currentVelocity * Time.fixedDeltaTime);
 
             // Update animation if you have an animator
-            if (animator != null)
+            if (_animator != null)
             {
-                animator.SetFloat("Speed", currentVelocity.magnitude / movementData.MoveSpeed);
+                _animator.SetFloat("Speed", _currentVelocity.magnitude / movementData.MoveSpeed);
             }
         }
 
@@ -102,7 +147,7 @@ namespace Player
 
         public (bool success, Vector3 position) GetMousePosition()
         {
-            var ray = mainCamera.ScreenPointToRay(Input.mousePosition);
+            var ray = _mainCamera.ScreenPointToRay(Input.mousePosition);
 
             if (Physics.Raycast(ray, out var hitInfo, Mathf.Infinity, movementData.GroundLayer))
             {
@@ -119,5 +164,6 @@ namespace Player
             Matrix4x4 isoMatrix = Matrix4x4.Rotate(Quaternion.Euler(0, 45, 0));
             return isoMatrix.MultiplyVector(input);
         }
+        
     }
 }

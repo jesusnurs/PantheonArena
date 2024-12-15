@@ -3,37 +3,69 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
-    public void PlayGame()
+    [SerializeField] private UIToolkitSettingsController settingsController;
+
+    private void Start()
     {
+        // Ensure we start with proper state
+        Time.timeScale = 1f;
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
         
-        SceneManager.LoadSceneAsync("MainScene 1");  
+        // Clean up any duplicate systems
+        CleanupDuplicateSystems();
     }
 
-    public void Multiplayer()
+    private void CleanupDuplicateSystems()
     {
-        
-        SceneManager.LoadScene("MultiplayerScene");  
+        // Clean up duplicate EventSystems
+        var eventSystems = FindObjectsOfType<UnityEngine.EventSystems.EventSystem>();
+        if (eventSystems.Length > 1)
+        {
+            for (int i = 1; i < eventSystems.Length; i++)
+            {
+                Destroy(eventSystems[i].gameObject);
+            }
+        }
+
+        // Clean up duplicate AudioListeners
+        var audioListeners = FindObjectsOfType<AudioListener>();
+        if (audioListeners.Length > 1)
+        {
+            for (int i = 1; i < audioListeners.Length; i++)
+            {
+                Destroy(audioListeners[i]);
+            }
+        }
+    }
+
+    public void PlayGame()
+    {
+        Debug.Log("Play button clicked");
+        // Make sure to unload everything before loading new scene
+        SceneManager.LoadScene("Arena", LoadSceneMode.Single);
     }
 
     public void Settings()
     {
-        
-        SceneManager.LoadScene("SettingsScene"); 
+        Debug.Log("Settings button clicked");
+        if (settingsController != null)
+        {
+            settingsController.ShowSettings();
+        }
+        else
+        {
+            Debug.LogError("Settings Controller not assigned in MainMenuManager!");
+        }
     }
 
-    public void PlayerStats()
-    {
-        
-        SceneManager.LoadScene("PlayerStatsScene"); 
-    }
-    public void BackToMainMenu()
-    {
-        SceneManager.LoadScene("MainMenu"); 
-    }
     public void QuitGame()
     {
-        
-        Application.Quit();
-        Debug.Log("Game Quit");
+        Debug.Log("Quit button clicked");
+        #if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+        #else
+                    Application.Quit();
+        #endif
     }
 }
