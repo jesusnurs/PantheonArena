@@ -6,7 +6,7 @@ public class MainMenuManager : MonoBehaviour
     public void PlayGame()
     {
         
-        SceneManager.LoadSceneAsync("MainScene");  
+        SceneManager.LoadSceneAsync("MainScene 1");  
     }
 
     public void Multiplayer()
