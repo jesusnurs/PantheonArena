@@ -227,7 +227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8536129b67abda4e944448a95d8c278, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  settingsController: {fileID: 0}
+  settingsController: {fileID: 1984214908}
 --- !u!1 &94361052
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,6 +1198,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e51d4a0cedd00f4aa378f6e076aa612, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainMenuCanvas: {fileID: 1563707768}
+  mainMenuButtons: []
   isMainMenu: 1
 --- !u!114 &1984214909
 MonoBehaviour:
