@@ -12,6 +12,17 @@ public class MainMenuManager : MonoBehaviour
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
         
+        // If we're in MainMenu but Arena is also loaded, unload it
+        for (int i = 0; i < SceneManager.sceneCount; i++)
+        {
+            Scene scene = SceneManager.GetSceneAt(i);
+            if (scene.name == "Arena")
+            {
+                Debug.Log("Found Arena scene loaded with MainMenu, unloading it...");
+                SceneManager.UnloadSceneAsync(scene);
+            }
+        }
+        
         // Clean up any duplicate systems
         CleanupDuplicateSystems();
     }
@@ -41,8 +52,8 @@ public class MainMenuManager : MonoBehaviour
 
     public void PlayGame()
     {
-        Debug.Log("Play button clicked");
-        // Make sure to unload everything before loading new scene
+        Debug.Log("Play button clicked - Loading Arena scene");
+        // Ensure we properly unload the current scene and load the new one
         SceneManager.LoadScene("Arena", LoadSceneMode.Single);
     }
 
@@ -63,9 +74,9 @@ public class MainMenuManager : MonoBehaviour
     {
         Debug.Log("Quit button clicked");
         #if UNITY_EDITOR
-                UnityEditor.EditorApplication.isPlaying = false;
+            UnityEditor.EditorApplication.isPlaying = false;
         #else
-                    Application.Quit();
+            Application.Quit();
         #endif
     }
 }

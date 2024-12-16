@@ -16,9 +16,9 @@ MonoBehaviour:
   rotationSpeed: 10
   acceleration: 8
   deceleration: 12
-  jumpForce: 5
-  groundCheckDistance: 0.2
+  jumpForce: 11
+  groundCheckDistance: 1
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
-  fallMultiplier: 2.5
+  fallMultiplier: 5

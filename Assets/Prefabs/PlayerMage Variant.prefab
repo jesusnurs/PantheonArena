@@ -52,6 +52,22 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2202456010351657102, guid: b4bac1efae8f97845a6adb298344717c, type: 3}
+      propertyPath: jumpForce
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2202456010351657102, guid: b4bac1efae8f97845a6adb298344717c, type: 3}
+      propertyPath: fallMultiplier
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2202456010351657102, guid: b4bac1efae8f97845a6adb298344717c, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2202456010351657102, guid: b4bac1efae8f97845a6adb298344717c, type: 3}
+      propertyPath: groundCheckDistance
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3085192551556224284, guid: b4bac1efae8f97845a6adb298344717c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5412935
