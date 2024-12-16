@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Data
 {
@@ -10,34 +11,17 @@ namespace Data
         
         [Header("Damage")]
         [SerializeField] private float basicDamage;
-        [SerializeField] private float skillOneDamage;
-        [SerializeField] private float skillTwoDamage;
-        [SerializeField] private float skillThreeDamage;
-        [SerializeField] private float ultimateDamage;
-        
-        [Header("Cooldown")]
-        [SerializeField] private float basicCooldown;
-        [SerializeField] private float skillOneCooldown;
-        [SerializeField] private float skillTwoCooldown;
-        [SerializeField] private float skillThreeCooldown;
-        [SerializeField] private float ultimateCooldown;
-        
         [SerializeField] private LayerMask enemyLayer;
         
-        public float MaxHealth => maxHealth;
+        [Header("Cooldown")]
+        [SerializeField] private float basicAttackCooldown;
+        [SerializeField] private float skillCooldown;
         
+        
+        public float MaxHealth => maxHealth;
         public float BasicDamage => basicDamage;
-        public float SkillOneDamage => skillOneDamage;
-        public float SkillTwoDamage => skillTwoDamage;
-        public float SkillThreeDamage => skillThreeDamage;
-        public float UltimateDamage => ultimateDamage;
-
-        public float BasicCooldown => basicCooldown;
-        public float SkillOneCooldown => skillOneCooldown;
-        public float SkillTwoCooldown => skillTwoCooldown;
-        public float SkillThreeCooldown => skillThreeCooldown;
-        public float UltimateCooldown => ultimateCooldown;
-
+        public float BasicAttackCooldown => basicAttackCooldown;
+        public float SkillCooldown => skillCooldown;
         public LayerMask EnemyLayer => enemyLayer;
     }
 }

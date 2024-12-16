@@ -23,7 +23,7 @@ namespace Player
             healthController.Init(playerStatsData.MaxHealth, playerStatsData.MaxHealth);
             statsHUD.Init(healthController);
             playerController.Init(playerMovementData, healthController);
-            combatController.Init(playerStatsData, playerController);
+            combatController.Init(playerStatsData, playerController, healthController, statsHUD);
             
             Invoke(nameof(Death),5f);
         }

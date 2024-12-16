@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Player
@@ -11,6 +12,8 @@ namespace Player
         private Animator _animator;
         
         private float _basicAttackCooldown;
+        private float _skillCooldown;
+        private float _healAmount => _statsData.MaxHealth / 4;
         
         private void Start()
         {
@@ -25,8 +28,14 @@ namespace Player
 
             if (Input.GetMouseButton(0) && Time.time > _basicAttackCooldown)
             {
-                _basicAttackCooldown = Time.time + _statsData.BasicCooldown;
+                _basicAttackCooldown = Time.time + _statsData.BasicAttackCooldown;
                 MeleeAttack();
+            }
+            
+            if (Input.GetKeyDown(KeyCode.E) && Time.time > _skillCooldown)
+            {
+                _skillCooldown = Time.time + _statsData.SkillCooldown;
+                UseSkill();
             }
         }
 
@@ -61,6 +70,12 @@ namespace Player
 
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(_attackPoint.position, _attackRadius);
+        }
+
+        private void UseSkill()
+        {
+            _healthController.TakeHeal(_healAmount);
+            _statsHUD.SetHealStatus(_skillCooldown);
         }
     }
 }

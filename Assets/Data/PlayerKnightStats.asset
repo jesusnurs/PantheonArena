@@ -14,15 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 10
   basicDamage: 2
-  skillOneDamage: 0
-  skillTwoDamage: 0
-  skillThreeDamage: 0
-  ultimateDamage: 0
-  basicCooldown: 0.75
-  skillOneCooldown: 0
-  skillTwoCooldown: 0
-  skillThreeCooldown: 0
-  ultimateCooldown: 0
   enemyLayer:
     serializedVersion: 2
     m_Bits: 64
+  basicAttackCooldown: 0.75
+  skillCooldown: 10

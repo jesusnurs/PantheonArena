@@ -13,13 +13,9 @@ MonoBehaviour:
   m_Name: PlayerMageStats
   m_EditorClassIdentifier: 
   maxHealth: 10
-  basicDamage: 0
-  skillOneDamage: 0
-  skillTwoDamage: 0
-  skillThreeDamage: 0
-  ultimateDamage: 0
-  basicCooldown: 0.5
-  skillOneCooldown: 0
-  skillTwoCooldown: 0
-  skillThreeCooldown: 0
-  ultimateCooldown: 0
+  basicDamage: 1
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  basicAttackCooldown: 0.5
+  skillCooldown: 10
