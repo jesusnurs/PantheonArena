@@ -75,6 +75,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   impactEffect: {fileID: 5548731480498235089, guid: 9065587e81198ba46a6ad7e90cca8311, type: 3}
+  damageableLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  damage: 1
 --- !u!135 &3234802714497365675
 SphereCollider:
   m_ObjectHideFlags: 0

@@ -6,8 +6,8 @@ namespace Player
 {
     public class PlayerController : MonoBehaviour
     {
-        [Header("Movement Settings")]
-        [SerializeField] private PlayerMovementData movementData;
+        private PlayerMovementData _movementData;
+        private HealthController _healthController;
 
         private Vector3 _moveDirection;
         private Vector3 _currentVelocity;
@@ -22,6 +22,17 @@ namespace Player
         [SerializeField] private float fallMultiplier = 2.5f;
 
         private bool _isGrounded;
+        private bool _isDead;
+        
+        public bool IsDead => _isDead;
+
+        public void Init(PlayerMovementData movementData, HealthController healthController)
+        {
+            _movementData = movementData;
+            _healthController = healthController;
+
+            _healthController.OnDeath += Death;
+        }
 
         private void Start()
         {
@@ -36,6 +47,9 @@ namespace Player
 
         private void Update()
         {
+            if(_isDead)
+                return;
+            
             CheckGrounded();
             HandleInput();
             Aim();
@@ -43,6 +57,9 @@ namespace Player
 
         private void FixedUpdate()
         {
+            if(_isDead)
+                return;
+            
             ApplyMovement();
             if (_rb.velocity.y < 0)
             {
@@ -101,20 +118,20 @@ namespace Player
             // Apply gravity multiplier for smoother falling
             if (_rb.velocity.y < 0)
             {
-                _rb.velocity += Vector3.up * Physics.gravity.y * (movementData.FallMultiplier - 1) * Time.fixedDeltaTime;
+                _rb.velocity += Vector3.up * Physics.gravity.y * (_movementData.FallMultiplier - 1) * Time.fixedDeltaTime;
             }
 
             // Apply movement
             if (_moveDirection.magnitude > 0.1f)
             {
                 // Accelerate
-                _currentVelocity = Vector3.Lerp(_currentVelocity, _moveDirection * movementData.MoveSpeed,
-                    movementData.Acceleration * Time.fixedDeltaTime);
+                _currentVelocity = Vector3.Lerp(_currentVelocity, _moveDirection * _movementData.MoveSpeed,
+                    _movementData.Acceleration * Time.fixedDeltaTime);
             }
             else
             {
                 // Decelerate
-                _currentVelocity = Vector3.Lerp(_currentVelocity, Vector3.zero, movementData.Deceleration * Time.fixedDeltaTime);
+                _currentVelocity = Vector3.Lerp(_currentVelocity, Vector3.zero, _movementData.Deceleration * Time.fixedDeltaTime);
             }
 
             // Apply movement to rigidbody
@@ -123,7 +140,7 @@ namespace Player
             // Update animation if you have an animator
             if (_animator != null)
             {
-                _animator.SetFloat("Speed", _currentVelocity.magnitude / movementData.MoveSpeed);
+                _animator.SetFloat("Speed", _currentVelocity.magnitude / _movementData.MoveSpeed);
             }
         }
 
@@ -141,7 +158,7 @@ namespace Player
 
                 // Smoothly rotate towards the target
                 var targetRotation = Quaternion.LookRotation(direction);
-                transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, movementData.RotationSpeed * Time.deltaTime);
+                transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, _movementData.RotationSpeed * Time.deltaTime);
             }
         }
 
@@ -149,7 +166,7 @@ namespace Player
         {
             var ray = _mainCamera.ScreenPointToRay(Input.mousePosition);
 
-            if (Physics.Raycast(ray, out var hitInfo, Mathf.Infinity, movementData.GroundLayer))
+            if (Physics.Raycast(ray, out var hitInfo, Mathf.Infinity, _movementData.GroundLayer))
             {
                 // The Raycast hit something, return with the position.
                 return (success: true, position: hitInfo.point);
@@ -164,6 +181,13 @@ namespace Player
             Matrix4x4 isoMatrix = Matrix4x4.Rotate(Quaternion.Euler(0, 45, 0));
             return isoMatrix.MultiplyVector(input);
         }
-        
+     
+        private void Death()
+        {
+            _animator.SetTrigger("Death");
+            _isDead = true;
+
+            //TODO UI and Respawn button
+        }
     }
 }
