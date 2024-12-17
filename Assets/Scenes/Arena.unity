@@ -772,6 +772,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2146744175714956313, guid: 62301dd936ac87f418fccd5d02dbf635, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 810901936}
+    - target: {fileID: 2292294022201422808, guid: 62301dd936ac87f418fccd5d02dbf635, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2310913516361934168, guid: 62301dd936ac87f418fccd5d02dbf635, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -815,6 +823,42 @@ PrefabInstance:
     - target: {fileID: 3773734636492944302, guid: 62301dd936ac87f418fccd5d02dbf635, type: 3}
       propertyPath: m_Name
       value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 4852883532004940951, guid: 62301dd936ac87f418fccd5d02dbf635, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4852883532004940951, guid: 62301dd936ac87f418fccd5d02dbf635, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352977902814123621, guid: 62301dd936ac87f418fccd5d02dbf635, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352977902814123621, guid: 62301dd936ac87f418fccd5d02dbf635, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352977902814123621, guid: 62301dd936ac87f418fccd5d02dbf635, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352977902814123621, guid: 62301dd936ac87f418fccd5d02dbf635, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352977902814123621, guid: 62301dd936ac87f418fccd5d02dbf635, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6941826805466939666, guid: 62301dd936ac87f418fccd5d02dbf635, type: 3}
+      propertyPath: _maxHealth
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6941826805466939666, guid: 62301dd936ac87f418fccd5d02dbf635, type: 3}
+      propertyPath: _currentHealth
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
