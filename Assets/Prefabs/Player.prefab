@@ -1080,12 +1080,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c221964a988cf045a2ec758b80a04da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 5
-  groundCheckDistance: 0.2
+  jumpForce: 10
+  groundCheckDistance: 1
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
-  fallMultiplier: 2.5
+    m_Bits: 8
+  fallMultiplier: 6
 --- !u!114 &5877684183816073629
 MonoBehaviour:
   m_ObjectHideFlags: 0

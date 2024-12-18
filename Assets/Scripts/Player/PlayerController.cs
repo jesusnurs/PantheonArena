@@ -97,7 +97,6 @@ namespace Player
         
         private void Jump()
         {
-
             if (!_isGrounded)
             {
                 Debug.Log("Not grounded");
